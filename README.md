@@ -48,3 +48,64 @@ You can also add more links to the navigation bar by adding additional <a> tags 
 Updating Links:
 
 Replace the href="url_to_I_year", href="url_to_II_year", etc., with actual URLs or internal page links to provide more details on each section.
+
+Time Table
+This project is a simple webpage displaying the weekly time table for the II-CSE-A (Second-Year Computer Science Engineering A) class. The time table is structured in a table format, showing the schedule of classes, breaks, and other activities throughout the week.
+
+Features
+Marquee Header: A scrolling header with the title "TIME TABLE OF II-CSE-A".
+
+Timetable Table: A table displaying the class schedule with columns for each period from 9:00 AM to 4:30 PM.
+
+Color-Coded Cells:
+
+highlight: Used for the day labels (e.g., Monday, Tuesday).
+
+special: Used to highlight special events or labs.
+
+normal: Default background for regular periods.
+
+Installation
+To view this webpage locally on your machine:
+
+Download the HTML file and CSS file:
+Code Explanation
+HTML Structure
+<marquee>: Used for creating a scrolling title at the top of the page.
+
+<table>: The timetable itself is structured within a table element with multiple rows (<tr>) and columns (<td> and <th>).
+
+Classes:
+
+highlight: Highlights the day names (Monday, Tuesday, etc.).
+
+special: Used for special sessions like lab periods.
+
+normal: Used for regular class periods.
+
+CSS Styling
+body: Styled with a black background and centered text for headers.
+
+table: The table has a white background, borders around each cell, and a subtle shadow effect to make it look clean and modern.
+
+th: The table header cells have a light blue background and dark text.
+
+highlight, special, normal: These classes define the background colors for different types of cells, such as the days of the week or special periods like labs.
+
+Key Sections of the Time Table
+Monday to Saturday: The days of the week are listed with class names and time slots.
+
+Break and Lunch: Specific rows for break and lunch periods that span across several columns.
+
+Customization
+Adding or Updating Timetable Entries:
+
+Modify the text inside the <td> tags to update class names and schedules.
+
+Add or remove rows for additional days or periods as needed.
+
+Changing Styles:
+
+To change the look of the timetable, modify the CSS styles, such as background colors, font styles, and table borders.
+
+
