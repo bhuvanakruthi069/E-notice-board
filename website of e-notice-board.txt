@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPEC CSE DEPARTMENT</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .content {
+            padding: 20px;
+        }
+        .content h2 {
+            color: #333;
+        }
+        .content p {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>SPEC CSE DEPARTMENT</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About CSE Department</a>
+        <a href="#projects">Projects by CSE Department</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+    <div class="content">
+        <h2><a href="url_to_I_year">I Year</a></h2>
+        <p>Details about I year go here.</p>
+        <h2><a href="url_to_II_year">II Year</a></h2>
+        <p>Details about II year go here.</p>
+        <h2><a href="url_to_III_year">III Year</a></h2>
+        <p>Details about III year go here.</p>
+        <h2><a href="url_to_IV_year">IV Year</a></h2>
+        <p>Details about IV year go here.</p>
+        <h2>Special Classes</h2>
+        <p>Details about special classes go here.</p>
+        <h2>Remedial Classes</h2>
+        <p>Details about remedial classes go here.</p>
+    </div>
+</body>
+</html>

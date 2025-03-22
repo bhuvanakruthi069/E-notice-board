@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<html>
+<head>
+<link rel="stylesheet" href="mystyle.css">
+<title>Time Table</title>
+</head>
+<body><marquee>
+<h1>TIME TABLE OF II-CSE-A</h1></marquee>
+<table>
+<tr>
+<th>Day/Period</th>
+<th>I<br>9:00-10.00</th>
+<th>II<br>10:00-11:00</th>
+<th>11:00-11:10</th>
+<th>III<br>11:10-12:10</th>
+<th>IV<br>12:10-1:100</th>
+<th>1:10-2:00</th>
+<th>V<br>2:00-3:00</th>
+<th>VI<br>3:00-4:00</th>
+<th>VII<br>4:00-4:30</th>
+</tr>
+<tr>
+<td class="highlight"><b>Monday</b></td>
+<td>DM</td>
+<td>BEFA</td>
+<td rowspan="6" class="normal"><b>BREAK</b></td>
+<td colspan="2" class="special">CRT</td>
+<td rowspan="6" class="normal"><b>LUNCH</b></td>
+<td>BEFA</td>
+<td>DBMS</td>
+<td>SPORTS</td>
+</tr>
+<tr>
+<td class="highlight"><b>Tuesday</b></td>
+<td colspan="2" class="special">FPP LAB B1/OS LAB B2</td>
+<td>DBMS</td>
+<td>FPP</td>
+<td>FPP</td>
+<td>DM</td>
+<td>REMEDIAL-1</td>
+</tr>
+<tr>
+<td class="highlight"><b>Wednesday</b></td>
+<td>BEFA/MC</td>
+<td>MENTORING</td>
+<td>DM</td>
+<td>FPP</td>
+<td>OS</td>
+<td>DM(T/A)</td>
+<td>DIGITALLIBRARY</td>			
+</tr>
+<tr>
+<td class="highlight"><b>Thursday</b></td>
+<td>OS/SDC</td>
+<td>OS</td>
+<td>BEFA</td>
+<td>DM</td>
+<td colspan="2" class="special">OS LAB B1/DBMS LAB B2</td>
+<td>LIBRARY</td>
+</tr>
+<tr>
+<td class="highlight"><b>Friday</b></td>
+<td>DBMS</td>
+<td>DBMS</td>
+<td>FPP</td>
+<td>OS</td>
+<td>OS</td>
+<td>BEFA</td>
+<td>REMEDIAL-2</td>
+</tr>
+<tr>
+<td class="highlight"><b>Saturday</b></td>
+<td>OS</td>
+<td>FPP</td>
+<td colspan="2" class="special">DBMS LAB B1/FPP LAB B2</td>
+<td>BEFA</td>
+<td>DBMS</td>
+<td>DAC</td>
+</tr>
+</table>
+</body>
+</html>
+<style>
+body {
+font-family: Arial, sans-serif;
+background-color: BLACK;
+margin: 0;
+padding: 0;
+}
+
+h1 {
+text-align: center;
+color: red;
+}
+table {
+border-collapse: collapse;
+margin: 20px auto;
+background-color: white;
+border: 2px solid black;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+		}
+th,td {
+border: 1px solid black;
+padding: 10px;
+text-align: center;
+}
+th {
+background-color: lightblue;
+color: #343a40;
+}
+.highlight {
+background-color:lightgreen;
+}
+.special {
+background-color: pink;
+}
+.normal{
+background-color: rgb(203, 195, 227);
+</style>
